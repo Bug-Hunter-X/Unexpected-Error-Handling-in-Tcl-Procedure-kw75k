@@ -1,0 +1,1 @@
+This repository demonstrates a subtle error in Tcl's error handling mechanism.  The `badproc` procedure throws an error if the input is not positive, but the error handling may not be as robust as expected in all calling contexts. The solution illustrates how to improve error handling for better reliability.
