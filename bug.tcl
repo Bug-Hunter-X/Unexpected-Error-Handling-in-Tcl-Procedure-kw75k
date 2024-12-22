@@ -1,0 +1,1 @@
+proc badproc {x} {if {$x > 0} {return $x} else {error "x must be positive"}}
