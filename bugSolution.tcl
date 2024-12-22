@@ -1,0 +1,1 @@
+proc improvedproc {x} {if {$x > 0} {return $x} else {return -code error "x must be positive"}}  #Return an error code instead of directly using "error"
